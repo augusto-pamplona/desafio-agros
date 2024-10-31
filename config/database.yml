@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+
+development:
+  <<: *default
+  database: desafio_agros_development
+
+test:
+  <<: *default
+  database: desafio_agros_test
+
+production:
+  <<: *default
+  database: desafio_agros_production
+  username: desafio_agros
+  password: <%= ENV["DESAFIO_AGROS_DATABASE_PASSWORD"] %>

@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "desafio-agros",
+    "collectionId": "d2b76b44-f18e-4086-877a-399d4c70e5dc",
+    "dateExported": "2024-10-31T16:52:00.830Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ac689597-9d0f-4bea-bd31-dbf42c311c2b",
+            "colId": "d2b76b44-f18e-4086-877a-399d4c70e5dc",
+            "containerId": "",
+            "name": "annotation",
+            "url": "http://localhost:3000/api/v1/annotations",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-10-31T16:45:34.291Z",
+            "modified": "2024-10-31T16:47:34.620Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"First Annotation\",\n  \"content\": \"First content for the first annotation\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c76c11cb-4e00-4222-9181-a135b553788f",
+            "colId": "d2b76b44-f18e-4086-877a-399d4c70e5dc",
+            "containerId": "",
+            "name": "annotations",
+            "url": "http://localhost:3000/api/v1/annotations",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-10-31T16:48:04.887Z",
+            "modified": "2024-10-31T16:48:15.275Z",
+            "headers": []
+        },
+        {
+            "_id": "575a338e-be47-4d93-8c05-98388c5e0778",
+            "colId": "d2b76b44-f18e-4086-877a-399d4c70e5dc",
+            "containerId": "",
+            "name": "annotation",
+            "url": "http://localhost:3000/api/v1/annotations/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-31T16:48:25.842Z",
+            "modified": "2024-10-31T16:48:31.458Z",
+            "headers": []
+        },
+        {
+            "_id": "2538118a-9487-4d83-b659-1e989dcb1935",
+            "colId": "d2b76b44-f18e-4086-877a-399d4c70e5dc",
+            "containerId": "",
+            "name": "annotation",
+            "url": "http://localhost:3000/api/v1/annotations/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-10-31T16:51:16.064Z",
+            "modified": "2024-10-31T16:51:37.516Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"First Annotation edited\",\n  \"content\": \"First content for the first annotation edited\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5cdd77ba-d1d2-4656-bf6c-bea95d3aa8b7",
+            "colId": "d2b76b44-f18e-4086-877a-399d4c70e5dc",
+            "containerId": "",
+            "name": "annotation",
+            "url": "http://localhost:3000/api/v1/annotations/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-10-31T16:51:47.167Z",
+            "modified": "2024-10-31T16:51:53.856Z",
+            "headers": []
+        }
+    ],
+    "ref": "p42gaBHUHvkpOhseP07o031G021QxM9Oo5_73UuT7nOZf3Eak0jsr5VtUuYapdmGObY_mfdn4kf2s4h-TQ5MGg"
+}

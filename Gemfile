@@ -3,9 +3,10 @@ source "https://rubygems.org"
 gem "rails", "~> 7.2.1"
 gem "pg", "~> 1.1"
 
+gem "bootsnap", require: false
+gem "kaminari"
 gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
-gem "bootsnap", require: false
 
 group :development, :test do
   gem "annotate"

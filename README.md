@@ -42,4 +42,5 @@ Tendo feito isso, será possível atualizar o banco com a estrutura da aplicaç�
 # Observações
 
 Existe na raiz do projeto um arquivo chamado ```thunder-collection_desafio-agros.json``` que possui uma simples coleção
-das actions do controller de annotation. Para usar é necessário que possua ou instale a extensão do Thunder Client no VScode.
+das actions do controller de annotation (index, show, create, update e delete).
+Para usar é necessário que possua ou instale a extensão do Thunder Client no VScode.
